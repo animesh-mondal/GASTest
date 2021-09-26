@@ -1,6 +1,6 @@
 const addGS = () => {
   const url =
-    'https://script.google.com/macros/s/AKfycbxVtH_K06LFblcVsd5crS1dcy7bH1-VVfW0YVJ_rHQWU6VHuxCZoGfRLLLF_rn4QAV7/exec';
+    'https://script.google.com/macros/s/AKfycbye0AZmW0MDmuNG4TSAVwrQpWs6f8Q4IplkJ-4X59b2y_xERBDZ01Zp5oIfhzF2Nl-G/exec';
 
   fetch(url, {
     method: 'POST',
@@ -19,7 +19,7 @@ const addGS = () => {
 
 const testGS = () => {
   const url =
-    'https://script.google.com/macros/s/AKfycbxVtH_K06LFblcVsd5crS1dcy7bH1-VVfW0YVJ_rHQWU6VHuxCZoGfRLLLF_rn4QAV7/exec';
+    'https://script.google.com/macros/s/AKfycbye0AZmW0MDmuNG4TSAVwrQpWs6f8Q4IplkJ-4X59b2y_xERBDZ01Zp5oIfhzF2Nl-G/exec';
 
   fetch(url)
     .then((d) => d.json())
