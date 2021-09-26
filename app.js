@@ -13,7 +13,7 @@ const addGS = () => {
     },
     redirect: 'follow',
     referrerPolicy: 'no-referrer',
-    body: JSON.stringify({name:"Animesh"}), // body data type must match "Content-Type" header
+    body: JSON.stringify({first:"New",last:"Man",age:45}), // body data type must match "Content-Type" header
   });
 };
 
